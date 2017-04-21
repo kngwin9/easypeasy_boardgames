@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './app.css';
+import logo from './imgs/logo.svg';
 
-class App extends Component {
-
-    render() {
-        return (
-            <div>
-                Hola World!
-            </div>
-        )
-    }
-}
+const App = () => (
+    <div>
+        <div className="app">
+            <img src={logo} className="rotate"/>
+            <h1>Welcome to React!</h1>
+        </div>
+    </div>
+);
 
 export default App;
