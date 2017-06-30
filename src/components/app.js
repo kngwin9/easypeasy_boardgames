@@ -1,11 +1,15 @@
 import React from 'react';
+
+import Header from './header/header';
+// import Footer from './footer/footer';
+
 import './app.css';
 
-const App = () => (
+const App = (props) => (
     <div>
-        <div className="app">
-            <h1>Easy Peasy Boardgames</h1>
-        </div>
+        <Header />
+        {props.children}
+        {/*<Footer />*/}
     </div>
 );
 
