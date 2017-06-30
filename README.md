@@ -9,3 +9,6 @@ A boardgame companion app that helps introduce the game and rules to all the pla
 ## Technology
 
 - React.js
+    https://facebook.github.io/react/
+- Material-ui
+    https://material-ui-1dab0.firebaseapp.com/
